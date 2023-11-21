@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_5ch0sGUsEe6bAesDIgR3sg">
+  <modelElement href="Latency.uml#_6BDeEmUsEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xX24GUsEe6bAesDIgR3sg" source="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UA2UWUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="__xX24WUsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UA2U2UsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__xX24mUsEe6bAesDIgR3sg" text=""/>
+    <sourceRole xmi:id="__xX242UsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UA2UmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xX25GUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xX25WUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__xX25mUsEe6bAesDIgR3sg" aggregationKind="NONE" name="latencyReport" navigable="true">
+      <modelElement href="Latency.uml#_6S8fUGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_oq1sMH5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S8fUWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xX252UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xX26GUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xX26WUsEe6bAesDIgR3sg" source="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UA2VGUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="__xX26mUsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UA2VmUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__xX262UsEe6bAesDIgR3sg" text=""/>
+    <sourceRole xmi:id="__xX27GUsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UA2VWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xX27WUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xX27mUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__xX272UsEe6bAesDIgR3sg" aggregationKind="NONE" name="program" navigable="true">
+      <modelElement href="Latency.uml#_6S8fUmUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_oq2TQH5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S9GYGUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xX28GUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xX28WUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xYd8GUsEe6bAesDIgR3sg" source="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UA2V2UsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="__xYd8WUsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UBdYGUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__xYd8mUsEe6bAesDIgR3sg" text=""/>
+    <sourceRole xmi:id="__xYd82UsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UA2WGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xYd9GUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xYd9WUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__xYd9mUsEe6bAesDIgR3sg" aggregationKind="NONE" name="workload" navigable="true">
+      <modelElement href="Latency.uml#_6S9GYWUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_oq2TQX5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S9GYmUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xYd92UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xYd-GUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xYd-WUsEe6bAesDIgR3sg" source="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UBdYWUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="__xYd-mUsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UBdY2UsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__xYd-2UsEe6bAesDIgR3sg" text=""/>
+    <sourceRole xmi:id="__xYd_GUsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UBdYmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xYd_WUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xYd_mUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__xYd_2UsEe6bAesDIgR3sg" aggregationKind="NONE" name="programTable" navigable="true">
+      <modelElement href="Latency.uml#_6S9GY2UsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_oq2TQn5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S9GZGUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xYeAGUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xYeAWUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xZFAGUsEe6bAesDIgR3sg" source="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UBdZGUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="__xZFAWUsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UBdZmUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__xZFAmUsEe6bAesDIgR3sg" text=""/>
+    <sourceRole xmi:id="__xZFA2UsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UBdZWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xZFBGUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xZFBWUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__xZFBmUsEe6bAesDIgR3sg" aggregationKind="NONE" name="nodeIndex" navigable="true">
+      <modelElement href="Latency.uml#_6S9GZWUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_oq2TQ35yEe6F645s24XfkQ" name="Generics">
+        <modelElement href="Latency.uml#_6S9tcGUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oq2TRH5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S9tcWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xZFB2UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFCGUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xhA0GUsEe6bAesDIgR3sg" sourceAnchor="401.0,0.0" targetAnchor="15.0,322.0" target="__xZFCWUsEe6bAesDIgR3sg" source="__x1J5WUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UBdamUsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="_5_9ccWUtEe6bAesDIgR3sg" position="293.0,671.0"/>
+    <stereotypes xmi:id="__xz7xGUsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UBdbGUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__xz7wWUsEe6bAesDIgR3sg" text="">
+      <visualProperties xmi:id="__8dskWUsEe6bAesDIgR3sg" position="2.0,7.375"/>
+    </nameVisual>
+    <sourceRole xmi:id="__xz7wmUsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UBda2UsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="__8dskGUsEe6bAesDIgR3sg" position="-18.0,-78.5"/>
+      <visibility xmi:id="__x0i1WUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__x0i1GUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__xz7w2UsEe6bAesDIgR3sg" aggregationKind="NONE" name="la" navigable="true">
+      <modelElement href="Latency.uml#_6S9teGUsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="__8dskmUsEe6bAesDIgR3sg" position="-30.0,28.5"/>
+      <stereotypes xmi:id="_oq2TRX5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S-UgGUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__x0i12UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__x0i1mUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__xzUsGUsEe6bAesDIgR3sg" targetItem="__x1J5WUsEe6bAesDIgR3sg" sourceItem="__xtOEGUsEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__xz7wGUsEe6bAesDIgR3sg" sourceAnchor="93.0,0.0" targetAnchor="166.0,269.0" target="_5_81YGUtEe6bAesDIgR3sg" source="__x1J5WUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UBdZ2UsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="_5_9ccGUtEe6bAesDIgR3sg" position="293.0,671.0"/>
+    <stereotypes xmi:id="__x0i02UsEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UBdaWUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__x0i0GUsEe6bAesDIgR3sg" text="">
+      <visualProperties xmi:id="_6B59MGUtEe6bAesDIgR3sg" position="-48.0,-1.8888888888889142"/>
+    </nameVisual>
+    <sourceRole xmi:id="__x0i0WUsEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UBdaGUsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="_6B5WIGUtEe6bAesDIgR3sg" position="2.0,-86.5"/>
+      <visibility xmi:id="__x1J4WUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__x1J4GUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__x0i0mUsEe6bAesDIgR3sg" aggregationKind="NONE" name="warp" navigable="true">
+      <modelElement href="Latency.uml#_6S9tdmUsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="_6B59MWUtEe6bAesDIgR3sg" position="2.0,31.5"/>
+      <stereotypes xmi:id="_oq26UH5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S9td2UsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__x1J42UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__x1J4mUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_5_8OUWUtEe6bAesDIgR3sg" targetItem="_5_81YGUtEe6bAesDIgR3sg" sourceItem="_5_8OUGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uDaYWUtEe6bAesDIgR3sg" targetItem="_8uHr0GUtEe6bAesDIgR3sg" sourceItem="_8uDaYGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_8uEBcGUtEe6bAesDIgR3sg" sourceAnchor="0.0,44.0" targetAnchor="875.0,492.0" superClass="_8uHr0GUtEe6bAesDIgR3sg" subClass="__x1J5WUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6PydpWUsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="_8uHsdmUtEe6bAesDIgR3sg" position="293.0,660.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEBcmUtEe6bAesDIgR3sg" targetItem="_8uHr7GUtEe6bAesDIgR3sg" sourceItem="_8uEBcWUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEBdGUtEe6bAesDIgR3sg" targetItem="_8uHr92UtEe6bAesDIgR3sg" sourceItem="_8uEBc2UtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEBdmUtEe6bAesDIgR3sg" targetItem="_8uHr_GUtEe6bAesDIgR3sg" sourceItem="_8uEBdWUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEBeGUtEe6bAesDIgR3sg" targetItem="_8uHsAWUtEe6bAesDIgR3sg" sourceItem="_8uEBd2UtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEogWUtEe6bAesDIgR3sg" targetItem="_8uHsCWUtEe6bAesDIgR3sg" sourceItem="_8uEogGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEog2UtEe6bAesDIgR3sg" targetItem="_8uHsDmUtEe6bAesDIgR3sg" sourceItem="_8uEogmUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEohWUtEe6bAesDIgR3sg" targetItem="_8uHsE2UtEe6bAesDIgR3sg" sourceItem="_8uEohGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEoh2UtEe6bAesDIgR3sg" targetItem="_8uHsGGUtEe6bAesDIgR3sg" sourceItem="_8uEohmUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uEoiWUtEe6bAesDIgR3sg" targetItem="_8uHsHWUtEe6bAesDIgR3sg" sourceItem="_8uEoiGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uFPkWUtEe6bAesDIgR3sg" targetItem="_8uHsI2UtEe6bAesDIgR3sg" sourceItem="_8uFPkGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uFPk2UtEe6bAesDIgR3sg" targetItem="_8uHsKWUtEe6bAesDIgR3sg" sourceItem="_8uFPkmUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uFPlWUtEe6bAesDIgR3sg" targetItem="_8uHsOGUtEe6bAesDIgR3sg" sourceItem="_8uFPlGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uF2oWUtEe6bAesDIgR3sg" targetItem="_8uHsR2UtEe6bAesDIgR3sg" sourceItem="_8uF2oGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uF2o2UtEe6bAesDIgR3sg" targetItem="_8uHsWWUtEe6bAesDIgR3sg" sourceItem="_8uF2omUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_8uF2pWUtEe6bAesDIgR3sg" targetItem="_8uHsaGUtEe6bAesDIgR3sg" sourceItem="_8uF2pGUtEe6bAesDIgR3sg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8uHEwGUtEe6bAesDIgR3sg" source="_8uHr0GUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6UD5oWUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_8uHEwWUtEe6bAesDIgR3sg" name="Reference">
+      <modelElement href="Latency.uml#_6UD5o2UsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8uHEwmUtEe6bAesDIgR3sg" text=""/>
+    <sourceRole xmi:id="_8uHEw2UtEe6bAesDIgR3sg" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UD5omUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHExGUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_8uHExWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8uHExmUtEe6bAesDIgR3sg" aggregationKind="NONE" name="fm" navigable="true">
+      <modelElement href="Latency.uml#_6TFpQGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_oq26UX5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TFpQWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_8uHEx2UtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHEyGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oq6ksH5yEe6F645s24XfkQ" subClass="_5_81YGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6QAgEGUsEe6bAesDIgR3sg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_orB5cH5yEe6F645s24XfkQ" dashed="true">
+    <modelElement href="Latency.uml#_6QmV8GUsEe6bAesDIgR3sg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_orDuoX5yEe6F645s24XfkQ" sourceItem="_orDuoH5yEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_orDuon5yEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6T9L8GUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_orJOM35yEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_6T9zAGUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_orJOMH5yEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_orJOMX5yEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6T9L8WUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_orLqcX5yEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_orLqcH5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_orJOMn5yEe6F645s24XfkQ" aggregationKind="NONE" name="program" navigable="true">
+      <modelElement href="Latency.uml#_6SnvM2UsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orLqdH5yEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6SnvNGUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_orLqc35yEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_orLqcn5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_orDuo35yEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6UEgsWUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_orJ1QX5yEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_6UEgs2UsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_orJONH5yEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_orJONX5yEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UEgsmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_orMRgX5yEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_orMRgH5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_orJ1QH5yEe6F645s24XfkQ" aggregationKind="NONE" name="workLoad" navigable="true">
+      <modelElement href="Latency.uml#_6TMW-GUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_66fLQH9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TM-AGUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_orMRg35yEe6F645s24XfkQ" label="~"/>
+      <cardinality xmi:id="_orMRgn5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_orEVsH5yEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6UEgtGUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_orJ1RX5yEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_6UEgtmUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_orJ1Qn5yEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_orJ1Q35yEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UEgtWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_orMRhn5yEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_orMRhX5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_orJ1RH5yEe6F645s24XfkQ" aggregationKind="NONE" name="scheduleBuilt" navigable="true">
+      <modelElement href="Latency.uml#_6TM-AWUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_66fyUH9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TM-AmUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_orMRiH5yEe6F645s24XfkQ" label="~"/>
+      <cardinality xmi:id="_orMRh35yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_orEVsX5yEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6UFHwGUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_orKcUH5yEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_6UFHwmUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_orJ1Rn5yEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_orJ1R35yEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UFHwWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_orMRi35yEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_orMRin5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_orJ1SH5yEe6F645s24XfkQ" aggregationKind="NONE" name="deadlineMisses" navigable="true">
+      <modelElement href="Latency.uml#_6TOzMWUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_66hAcH9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TOzMmUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_orM4kX5yEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_orM4kH5yEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_orEVs35yEe6F645s24XfkQ" sourceItem="_orEVsn5yEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_orFj0X5yEe6F645s24XfkQ" sourceItem="_orFj0H5yEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_orGK4X5yEe6F645s24XfkQ" sourceItem="_orGK4H5yEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_69L58H9pEe6F645s24XfkQ" source="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_Dn5C4HLKEe6Y3e8f6FsdUw"/>
+    <stereotypes xmi:id="_69L58X9pEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_Dn5p8HLKEe6Y3e8f6FsdUw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_69L58n9pEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_69L5839pEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_Dn5C4XLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_69L59H9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_69L59X9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_69L59n9pEe6F645s24XfkQ" aggregationKind="NONE" name="dsl" navigable="true">
+      <modelElement href="Latency.uml#_Dn0xcnLKEe6Y3e8f6FsdUw"/>
+      <stereotypes xmi:id="_69Z8YH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_69L5939pEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_69L5-H9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_690MEH9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6UEgt2UsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_690MEX9pEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_6UEguWUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_690MEn9pEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_690ME39pEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UEguGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_690MFH9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_690MFX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_690MFn9pEe6F645s24XfkQ" aggregationKind="NONE" name="SchedulerSelected" navigable="true">
+      <modelElement href="Latency.uml#_6TM-A2UsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_690MF39pEe6F645s24XfkQ" label="~"/>
+      <cardinality xmi:id="_690MGH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_690zIH9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6UEgumUsEe6bAesDIgR3sg"/>
+    <stereotypes xmi:id="_690zIX9pEe6F645s24XfkQ" name="Reference">
+      <modelElement href="Latency.uml#_6UEgvGUsEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_690zIn9pEe6F645s24XfkQ" text=""/>
+    <sourceRole xmi:id="_690zI39pEe6F645s24XfkQ" aggregationKind="NONE" name="">
+      <modelElement href="Latency.uml#_6UEgu2UsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_690zJH9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_690zJX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_690zJn9pEe6F645s24XfkQ" aggregationKind="NONE" name="channelsAvailable" navigable="true">
+      <modelElement href="Latency.uml#_6TOMIGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_690zJ39pEe6F645s24XfkQ" label="~"/>
+      <cardinality xmi:id="_690zKH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__nDoEH9pEe6F645s24XfkQ" targetItem="__xZFCWUsEe6bAesDIgR3sg" sourceItem="__nDBAH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__nXKEH9pEe6F645s24XfkQ" targetItem="__xZFMWUsEe6bAesDIgR3sg" sourceItem="__nWjAH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__nee0H9pEe6F645s24XfkQ" targetItem="__xZFNmUsEe6bAesDIgR3sg" sourceItem="__ncpoH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__niJMX9pEe6F645s24XfkQ" targetItem="__xZFR2UsEe6bAesDIgR3sg" sourceItem="__niJMH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__nlzkH9pEe6F645s24XfkQ" targetItem="__xZFUGUsEe6bAesDIgR3sg" sourceItem="__nlMgH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__nqFAX9pEe6F645s24XfkQ" targetItem="_67QAQX9pEe6F645s24XfkQ" sourceItem="__nqFAH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__ntvYX9pEe6F645s24XfkQ" targetItem="_67XVAH9pEe6F645s24XfkQ" sourceItem="__ntvYH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__nxZwH9pEe6F645s24XfkQ" targetItem="_67c0kX9pEe6F645s24XfkQ" sourceItem="__nwysH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__n1EIX9pEe6F645s24XfkQ" targetItem="_67i7MX9pEe6F645s24XfkQ" sourceItem="__n1EIH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__n8_8H9pEe6F645s24XfkQ" targetItem="_67qP8X9pEe6F645s24XfkQ" sourceItem="__n7x0H9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__oOswH9pEe6F645s24XfkQ" targetItem="_670oAH9pEe6F645s24XfkQ" sourceItem="__oOFsH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__oWokH9pEe6F645s24XfkQ" targetItem="_67_AEH9pEe6F645s24XfkQ" sourceItem="__oWBgH9pEe6F645s24XfkQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="__oYdwX9pEe6F645s24XfkQ" targetItem="_68IxEH9pEe6F645s24XfkQ" sourceItem="__oYdwH9pEe6F645s24XfkQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__xtOEGUsEe6bAesDIgR3sg" sourceConnectionVisual="__xzUsGUsEe6bAesDIgR3sg" text="LatencyVisualization creates the visualizations for the liability analysis of the WARP program.&#xD;&#xA;&lt;p>&#xD;&#xA;&#xD;&#xA;CS2820 Fall 2023 Project: Implement this class to create the file visualization that is&#xD;&#xA;requested in Warp.&#xD;&#xA;&#xD;&#xA;@author sgoddard&#xD;&#xA;@version 1.6&#xD;&#xA; *" item="__x1J5WUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6TyM2mUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_5_8OUGUtEe6bAesDIgR3sg" sourceConnectionVisual="_5_8OUWUtEe6bAesDIgR3sg" text="@author sgoddard&#xD;&#xA;@version 1.4" item="_5_81YGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6TyM5GUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uDaYGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uDaYWUtEe6bAesDIgR3sg" text="@author sgoddard&#xD;&#xA;@author srgoddard (for java doc comments)&#xD;&#xA;@version 1.5&#xD;&#xA; *&#xD;&#xA; *Visualizes the information of the node into a readable name with the needed information.&#xD;&#xA; *Includes faults and schedule name.&#xD;&#xA; *Contains:&#xD;&#xA; *nameExtension()&#xD;&#xA; *displayVisualization()&#xD;&#xA; *fileVisualization()&#xD;&#xA; *" item="_8uHr0GUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz82UsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEBcWUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEBcmUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * This method is used to attach the faults of each node to the name of the same node.&#xD;&#xA;  * @param extension formats the input data into a readable format" item="_8uHr7GUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz-WUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEBc2UtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEBdGUtEe6bAesDIgR3sg" text="&#xD;&#xA;   * @return the fm" item="_8uHr92UtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz-mUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEBdWUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEBdmUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * This method is the initial step to visualize the data in a readible format.&#xD;&#xA;  * @param content is created to be used as a description to hold the new ColumnHeader() and data&#xD;&#xA;  * @param data is used to hold NULL through the createVisualizationData() method which returns NULL&#xD;&#xA;  * @return content" item="_8uHr_GUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz-2UsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEBd2UtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEBeGUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * Method creates the file name by adding the extension and suffix.&#xD;&#xA;  * @return fm.createFile() which calls itself to create the file as a fileNameTemplate" item="_8uHsAWUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz_GUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEogGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEogWUtEe6bAesDIgR3sg" text="*&#xD;&#xA;  * Method is the final step to combine the header/data and footer together and returns fileContent.&#xD;&#xA;  * @param fileContent is created to contain all the data for nodes into a readible format" item="_8uHsCWUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz_WUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEogmUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEog2UtEe6bAesDIgR3sg" text="&#xD;&#xA;  * @return null" item="_8uHsDmUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz_mUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEohGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEohWUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * @return new Description header" item="_8uHsE2UtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz_2UsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEohmUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEoh2UtEe6bAesDIgR3sg" text="&#xD;&#xA;  * @return new Description footer" item="_8uHsGGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Ty0AGUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uEoiGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uEoiWUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * @return NOT_IMPLEMENTED" item="_8uHsHWUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Ty0AWUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uFPkGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uFPkWUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * @return visualizationData which is not implemented and returns null" item="_8uHsI2UtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Ty0AmUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uFPkmUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uFPk2UtEe6bAesDIgR3sg" text="&#xD;&#xA;  * Class Object that links together the filemanager with the workload and suffix.&#xD;&#xA;  * @param nameExtension is the string variable to be added onto the name of the node&#xD;&#xA;  * @param suffix is the&#xD;&#xA;  *" item="_8uHsKWUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz9GUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uFPlGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uFPlWUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * Class object that links together the filemanager to the specific node warp attributes and suffix." item="_8uHsOGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz9WUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uF2oGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uF2oWUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * Class object to manage any faults that are attached to the nodes." item="_8uHsR2UtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz9mUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uF2omUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uF2o2UtEe6bAesDIgR3sg" text="*&#xD;&#xA;  * Class object of managing the file for each node" item="_8uHsWWUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz92UsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_8uF2pGUtEe6bAesDIgR3sg" sourceConnectionVisual="_8uF2pWUtEe6bAesDIgR3sg" text="&#xD;&#xA;  * This method is used to attach the data of the node to the schedule name of the nodes." item="_8uHsaGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6Tyz-GUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8uHr0GUtEe6bAesDIgR3sg" comments="_8uDaYGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uDaYWUtEe6bAesDIgR3sg" name="VisualizationObject" abstractClass="true" associationsOut="_8uHEwGUtEe6bAesDIgR3sg" subclassedBy="_8uEBcGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6DKW4GUsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="_8uHr0WUtEe6bAesDIgR3sg" position="-1400.0,164.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8uHr0mUtEe6bAesDIgR3sg" label="~"/>
+    <attributes xmi:id="_8uHr02UtEe6bAesDIgR3sg" name="fm">
+      <modelElement href="Latency.uml#_6TFpQGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orS_MX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orTmQH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orTmQX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66ZrsH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6-kaAH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_8uHr1WUtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHr1mUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="_8uHr12UtEe6bAesDIgR3sg" name="FileManager">
+        <modelElement href="Latency.uml#_6Cj58mUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uHr2GUtEe6bAesDIgR3sg" name="suffix">
+      <modelElement href="Latency.uml#_6TFpQmUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_8uHr2WUtEe6bAesDIgR3sg" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TFpQ2UsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_8uHr2mUtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHr22UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="_8uHr3GUtEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uHr3WUtEe6bAesDIgR3sg" name="nameExtension">
+      <modelElement href="Latency.uml#_6TFpRGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_8uHr3mUtEe6bAesDIgR3sg" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TFpRWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_8uHr32UtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHr4GUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="_8uHr4WUtEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uHr4mUtEe6bAesDIgR3sg" defaultValue="&quot;This visualization has not been implemented.&quot;" name="NOT_IMPLEMENTED" staticAttribute="true">
+      <modelElement href="Latency.uml#_6TFpRmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHr42UtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHr5GUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="_8uHr5WUtEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_8uHr5mUtEe6bAesDIgR3sg" name="visualizationData">
+      <modelElement href="Latency.uml#_6TFpSGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_8uHr52UtEe6bAesDIgR3sg" name="Array">
+        <modelElement href="Latency.uml#_6TFpSmUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8uHr6GUtEe6bAesDIgR3sg" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6TFpS2UsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_8uHr6WUtEe6bAesDIgR3sg" label="#"/>
+      <cardinality xmi:id="_8uHr6mUtEe6bAesDIgR3sg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_8uHr62UtEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8uHr7GUtEe6bAesDIgR3sg" comments="_8uEBcWUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEBcmUtEe6bAesDIgR3sg" name="nameExtension">
+      <modelElement href="Latency.uml#_6DK98GUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHr7WUtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHr7mUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHr72UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6DK982UsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHr8GUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHr8WUtEe6bAesDIgR3sg" name="schName">
+        <modelElement href="Latency.uml#_6DK98WUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHr8mUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHr82UtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHr9GUtEe6bAesDIgR3sg" name="numFaults">
+        <modelElement href="Latency.uml#_6DK98mUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHr9WUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHr9mUtEe6bAesDIgR3sg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uHr92UtEe6bAesDIgR3sg" comments="_8uEBc2UtEe6bAesDIgR3sg" targetConnectionVisual="_8uEBdGUtEe6bAesDIgR3sg" name="getFileManager">
+      <modelElement href="Latency.uml#_6DK99GUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHr-GUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_8uHr-WUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHr-mUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXt2UsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHr-2UtEe6bAesDIgR3sg" name="FileManager">
+          <modelElement href="Latency.uml#_6Cj58mUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHr_GUtEe6bAesDIgR3sg" comments="_8uEBdWUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEBdmUtEe6bAesDIgR3sg" name="visualization">
+      <modelElement href="Latency.uml#_6DK99WUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHr_WUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_8uHr_mUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHr_2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXuGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsAGUtEe6bAesDIgR3sg" name="Description">
+          <modelElement href="Latency.uml#_6ChdsGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsAWUtEe6bAesDIgR3sg" comments="_8uEBd2UtEe6bAesDIgR3sg" targetConnectionVisual="_8uEBeGUtEe6bAesDIgR3sg" name="createFile">
+      <modelElement href="Latency.uml#_6DK99mUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHsAmUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_8uHsA2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsBGUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6DK9-GUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsBWUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHsBmUtEe6bAesDIgR3sg" name="fileNameTemplate">
+        <modelElement href="Latency.uml#_6DK992UsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsB2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsCGUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uHsCWUtEe6bAesDIgR3sg" comments="_8uEogGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEogWUtEe6bAesDIgR3sg" name="fileVisualization">
+      <modelElement href="Latency.uml#_6DK9-WUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHsCmUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_8uHsC2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsDGUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXuWUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsDWUtEe6bAesDIgR3sg" name="Description">
+          <modelElement href="Latency.uml#_6ChdsGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsDmUtEe6bAesDIgR3sg" comments="_8uEogmUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEog2UtEe6bAesDIgR3sg" name="displayVisualization">
+      <modelElement href="Latency.uml#_6DK9-mUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHsD2UtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_8uHsEGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsEWUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXumUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsEmUtEe6bAesDIgR3sg" name="GuiVisualization">
+          <modelElement href="Latency.uml#_6CpZgGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsE2UtEe6bAesDIgR3sg" comments="_8uEohGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEohWUtEe6bAesDIgR3sg" name="createHeader">
+      <modelElement href="Latency.uml#_6DLlAGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHsFGUtEe6bAesDIgR3sg" label="#"/>
+      <cardinality xmi:id="_8uHsFWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsFmUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXu2UsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsF2UtEe6bAesDIgR3sg" name="Description">
+          <modelElement href="Latency.uml#_6ChdsGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsGGUtEe6bAesDIgR3sg" comments="_8uEohmUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEoh2UtEe6bAesDIgR3sg" name="createFooter">
+      <modelElement href="Latency.uml#_6DLlAWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHsGWUtEe6bAesDIgR3sg" label="#"/>
+      <cardinality xmi:id="_8uHsGmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsG2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXvGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsHGUtEe6bAesDIgR3sg" name="Description">
+          <modelElement href="Latency.uml#_6ChdsGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsHWUtEe6bAesDIgR3sg" comments="_8uEoiGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uEoiWUtEe6bAesDIgR3sg" name="createColumnHeader">
+      <modelElement href="Latency.uml#_6DLlAmUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_8uHsHmUtEe6bAesDIgR3sg" name="Array">
+        <modelElement href="Latency.uml#_6DLlBWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_8uHsH2UtEe6bAesDIgR3sg" label="#"/>
+      <cardinality xmi:id="_8uHsIGUtEe6bAesDIgR3sg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_8uHsIWUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6DLlA2UsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsImUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsI2UtEe6bAesDIgR3sg" comments="_8uFPkGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uFPkWUtEe6bAesDIgR3sg" name="createVisualizationData">
+      <modelElement href="Latency.uml#_6DLlBmUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_8uHsJGUtEe6bAesDIgR3sg" name="Array">
+        <modelElement href="Latency.uml#_6DLlCWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="_8uHsJWUtEe6bAesDIgR3sg" label="#"/>
+      <cardinality xmi:id="_8uHsJmUtEe6bAesDIgR3sg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_8uHsJ2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6DLlB2UsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsKGUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8uHsKWUtEe6bAesDIgR3sg" comments="_8uFPkmUtEe6bAesDIgR3sg" targetConnectionVisual="_8uFPk2UtEe6bAesDIgR3sg" name="VisualizationObject">
+      <modelElement href="Latency.uml#_6QOigGUsEe6bAesDIgR3sg"/>
+      <keywords xmi:id="_8uHsKmUtEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="_8uHsK2UtEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="_8uHsLGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsLWUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QPJlGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsLmUtEe6bAesDIgR3sg" name="VisualizationObject">
+          <modelElement href="Latency.uml#_6DKW4GUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHsL2UtEe6bAesDIgR3sg" name="fm">
+        <modelElement href="Latency.uml#_6QOigWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsMGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsMWUtEe6bAesDIgR3sg" name="FileManager">
+          <modelElement href="Latency.uml#_6Cj58mUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsMmUtEe6bAesDIgR3sg" name="workLoad">
+        <modelElement href="Latency.uml#_6QPJkGUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsM2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsNGUtEe6bAesDIgR3sg" name="WorkLoad">
+          <modelElement href="Latency.uml#_6DqGIGUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsNWUtEe6bAesDIgR3sg" name="suffix">
+        <modelElement href="Latency.uml#_6QPJkWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsNmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsN2UtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uHsOGUtEe6bAesDIgR3sg" comments="_8uFPlGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uFPlWUtEe6bAesDIgR3sg" name="VisualizationObject">
+      <modelElement href="Latency.uml#_6QPJlWUsEe6bAesDIgR3sg"/>
+      <keywords xmi:id="_8uHsOWUtEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="_8uHsOmUtEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="_8uHsO2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsPGUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QPwoWUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsPWUtEe6bAesDIgR3sg" name="VisualizationObject">
+          <modelElement href="Latency.uml#_6DKW4GUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHsPmUtEe6bAesDIgR3sg" name="fm">
+        <modelElement href="Latency.uml#_6QPJlmUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsP2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsQGUtEe6bAesDIgR3sg" name="FileManager">
+          <modelElement href="Latency.uml#_6Cj58mUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsQWUtEe6bAesDIgR3sg" name="warp">
+        <modelElement href="Latency.uml#_6QPJl2UsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsQmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsQ2UtEe6bAesDIgR3sg" name="SystemAttributes">
+          <modelElement href="Latency.uml#_6DBM8mUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsRGUtEe6bAesDIgR3sg" name="suffix">
+        <modelElement href="Latency.uml#_6QPJmGUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsRWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsRmUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uHsR2UtEe6bAesDIgR3sg" comments="_8uF2oGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uF2oWUtEe6bAesDIgR3sg" name="VisualizationObject">
+      <modelElement href="Latency.uml#_6QPwomUsEe6bAesDIgR3sg"/>
+      <keywords xmi:id="_8uHsSGUtEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="_8uHsSWUtEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="_8uHsSmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsS2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QPwqWUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsTGUtEe6bAesDIgR3sg" name="VisualizationObject">
+          <modelElement href="Latency.uml#_6DKW4GUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHsTWUtEe6bAesDIgR3sg" name="fm">
+        <modelElement href="Latency.uml#_6QPwo2UsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsTmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsT2UtEe6bAesDIgR3sg" name="FileManager">
+          <modelElement href="Latency.uml#_6Cj58mUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsUGUtEe6bAesDIgR3sg" name="warp">
+        <modelElement href="Latency.uml#_6QPwpGUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsUWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsUmUtEe6bAesDIgR3sg" name="SystemAttributes">
+          <modelElement href="Latency.uml#_6DBM8mUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsU2UtEe6bAesDIgR3sg" name="nameExtension">
+        <modelElement href="Latency.uml#_6QPwpWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsVGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsVWUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsVmUtEe6bAesDIgR3sg" name="suffix">
+        <modelElement href="Latency.uml#_6QPwpmUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsV2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsWGUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uHsWWUtEe6bAesDIgR3sg" comments="_8uF2omUtEe6bAesDIgR3sg" targetConnectionVisual="_8uF2o2UtEe6bAesDIgR3sg" name="VisualizationObject">
+      <modelElement href="Latency.uml#_6QQXsGUsEe6bAesDIgR3sg"/>
+      <keywords xmi:id="_8uHsWmUtEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="_8uHsW2UtEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="_8uHsXGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsXWUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QQXtmUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsXmUtEe6bAesDIgR3sg" name="VisualizationObject">
+          <modelElement href="Latency.uml#_6DKW4GUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHsX2UtEe6bAesDIgR3sg" name="fm">
+        <modelElement href="Latency.uml#_6QQXsWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsYGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsYWUtEe6bAesDIgR3sg" name="FileManager">
+          <modelElement href="Latency.uml#_6Cj58mUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsYmUtEe6bAesDIgR3sg" name="nameExtension">
+        <modelElement href="Latency.uml#_6QQXsmUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsY2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsZGUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsZWUtEe6bAesDIgR3sg" name="suffix">
+        <modelElement href="Latency.uml#_6QQXs2UsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsZmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsZ2UtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8uHsaGUtEe6bAesDIgR3sg" comments="_8uF2pGUtEe6bAesDIgR3sg" targetConnectionVisual="_8uF2pWUtEe6bAesDIgR3sg" name="nameExtension">
+      <modelElement href="Latency.uml#_6SJ1IGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_8uHsaWUtEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="_8uHsamUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8uHsa2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6SJ1JGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_8uHsbGUtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8uHsbWUtEe6bAesDIgR3sg" name="schName">
+        <modelElement href="Latency.uml#_6SJ1IWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsbmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsb2UtEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHscGUtEe6bAesDIgR3sg" name="m">
+        <modelElement href="Latency.uml#_6SJ1ImUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHscWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHscmUtEe6bAesDIgR3sg" name="Double">
+          <modelElement href="Latency.uml#_6R3hQGUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_8uHsc2UtEe6bAesDIgR3sg" name="e2e">
+        <modelElement href="Latency.uml#_6SJ1I2UsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="_8uHsdGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="_8uHsdWUtEe6bAesDIgR3sg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_5_81YGUtEe6bAesDIgR3sg" comments="_5_8OUGUtEe6bAesDIgR3sg" targetConnectionVisual="_5_8OUWUtEe6bAesDIgR3sg" name="WarpInterface" associationsIn="__xz7wGUsEe6bAesDIgR3sg" generalizations="_oq6ksH5yEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6C7taWUsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="_5_81YWUtEe6bAesDIgR3sg" position="-399.0,164.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5_81YmUtEe6bAesDIgR3sg" label="+"/>
+    <operations xmi:id="_5_81Y2UtEe6bAesDIgR3sg" name="toWorkload">
+      <modelElement href="Latency.uml#_6C87gGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81ZGUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81ZWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81ZmUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QAgEWUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81Z2UtEe6bAesDIgR3sg" name="WorkLoad">
+          <modelElement href="Latency.uml#_6DqGIGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81aGUtEe6bAesDIgR3sg" name="toProgram">
+      <modelElement href="Latency.uml#_6C87gWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81aWUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81amUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81a2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QAgEmUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81bGUtEe6bAesDIgR3sg" name="Program">
+          <modelElement href="Latency.uml#_6DaOgGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81bWUtEe6bAesDIgR3sg" name="toReliabilityAnalysis">
+      <modelElement href="Latency.uml#_6C87gmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81bmUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81b2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81cGUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QAgE2UsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81cWUtEe6bAesDIgR3sg" name="ReliabilityAnalysis">
+          <modelElement href="Latency.uml#_6C4DA2UsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81cmUtEe6bAesDIgR3sg" name="toSimulator">
+      <modelElement href="Latency.uml#_6C87g2UsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81c2UtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81dGUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81dWUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QAgFGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81dmUtEe6bAesDIgR3sg" name="SimulatorInput">
+          <modelElement href="Latency.uml#_6C_-1mUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81d2UtEe6bAesDIgR3sg" name="toLatencyAnalysis">
+      <modelElement href="Latency.uml#_6C9ikGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81eGUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81eWUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81emUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QAgFWUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81e2UtEe6bAesDIgR3sg" name="LatencyAnalysis">
+          <modelElement href="Latency.uml#_6Csc1mUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81fGUtEe6bAesDIgR3sg" name="toChannelAnalysis">
+      <modelElement href="Latency.uml#_6C9ikWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81fWUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81fmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81f2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6QAgFmUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81gGUtEe6bAesDIgR3sg" name="ChannelAnalysis">
+          <modelElement href="Latency.uml#_6CYTwWUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81gWUtEe6bAesDIgR3sg" name="toSensorNetwork">
+      <modelElement href="Latency.uml#_6C9ikmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81gmUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81g2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5_81hGUtEe6bAesDIgR3sg" name="reliabilitiesMet">
+      <modelElement href="Latency.uml#_6C9ik2UsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81hWUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81hmUtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81h2UtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6C9ilGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81iGUtEe6bAesDIgR3sg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5_81iWUtEe6bAesDIgR3sg" name="deadlinesMet">
+      <modelElement href="Latency.uml#_6C9ilWUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_5_81imUtEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_5_81i2UtEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5_81jGUtEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6C9ilmUsEe6bAesDIgR3sg"/>
+        <type xmi:id="_5_81jWUtEe6bAesDIgR3sg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__x1J5WUsEe6bAesDIgR3sg" comments="__xtOEGUsEe6bAesDIgR3sg" targetConnectionVisual="__xzUsGUsEe6bAesDIgR3sg" name="LatencyVisualization" associationsOut="__xhA0GUsEe6bAesDIgR3sg __xz7wGUsEe6bAesDIgR3sg" generalizations="_8uEBcGUtEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#_6CtD5mUsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="__x1J5mUsEe6bAesDIgR3sg" position="-326.0,612.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__x1J52UsEe6bAesDIgR3sg" label="+"/>
+    <attributes xmi:id="__x1J6GUsEe6bAesDIgR3sg" defaultValue="&quot;.la&quot;" name="SOURCE_SUFFIX" staticAttribute="true">
+      <modelElement href="Latency.uml#_6S9tcmUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__x1J6WUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__x1J6mUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__x1J62UsEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__x1J7GUsEe6bAesDIgR3sg" defaultValue="&quot;Latency Analysis&quot;" name="OBJECT_NAME" staticAttribute="true">
+      <modelElement href="Latency.uml#_6S9tdGUsEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__x1J7WUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__x1J7mUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__x1J72UsEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__x1J8GUsEe6bAesDIgR3sg" name="warp">
+      <modelElement href="Latency.uml#_6S9tdmUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orRxEX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orS_MH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orUNUH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66XPcH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6-vZIH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__x1J8mUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__x1J82UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__x1J9GUsEe6bAesDIgR3sg" name="WarpInterface">
+        <modelElement href="Latency.uml#_6C7taWUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__x1J9WUsEe6bAesDIgR3sg" name="la">
+      <modelElement href="Latency.uml#_6S9teGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orRKAX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orRxEH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orU0YH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66X2gH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6-uyEH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__x1J92UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__x1J-GUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__x1J-WUsEe6bAesDIgR3sg" name="LatencyAnalysis">
+        <modelElement href="Latency.uml#_6Csc1mUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__x1J-mUsEe6bAesDIgR3sg" name="LatencyVisualization">
+      <modelElement href="Latency.uml#_6PydoGUsEe6bAesDIgR3sg"/>
+      <keywords xmi:id="__x1J-2UsEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="__x1J_GUsEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="__x1J_WUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__x1J_mUsEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6PydpGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="__x1J_2UsEe6bAesDIgR3sg" name="LatencyVisualization">
+          <modelElement href="Latency.uml#_6CtD5mUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__x1KAGUsEe6bAesDIgR3sg" name="warp">
+        <modelElement href="Latency.uml#_6PydoWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__x1KAWUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__x1KAmUsEe6bAesDIgR3sg" name="WarpInterface">
+          <modelElement href="Latency.uml#_6C7taWUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__xZFCWUsEe6bAesDIgR3sg" comments="__nDBAH9pEe6F645s24XfkQ" targetConnectionVisual="__nDoEH9pEe6F645s24XfkQ" name="LatencyAnalysis" associationsIn="__xhA0GUsEe6bAesDIgR3sg" associationsOut="__xX24GUsEe6bAesDIgR3sg __xX26WUsEe6bAesDIgR3sg __xYd8GUsEe6bAesDIgR3sg __xYd-WUsEe6bAesDIgR3sg __xZFAGUsEe6bAesDIgR3sg _69L58H9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#_6Csc1mUsEe6bAesDIgR3sg"/>
+    <visualProperties xmi:id="__xZFCmUsEe6bAesDIgR3sg" position="60.0,123.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_7gj6QWUyEe6bAesDIgR3sg" name="Patch">
+      <modelElement href="Latency.uml#_7gj6QGUyEe6bAesDIgR3sg"/>
+    </stereotypes>
+    <visibility xmi:id="__xZFDGUsEe6bAesDIgR3sg" label="+"/>
+    <attributes xmi:id="__xZFDWUsEe6bAesDIgR3sg" defaultValue="&quot; => DEADLINE MISS&quot;" name="DEADLINE_MISS" staticAttribute="true">
+      <modelElement href="Latency.uml#_6S6DEGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="__xZFDmUsEe6bAesDIgR3sg" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S6DEWUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xZFD2UsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xZFEGUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFEWUsEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__xZFEmUsEe6bAesDIgR3sg" defaultValue="&quot;******************************\n&quot;" name="FLOW_SEPARATOR" staticAttribute="true">
+      <modelElement href="Latency.uml#_6S7RMGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="__xZFE2UsEe6bAesDIgR3sg" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_6S7RMmUsEe6bAesDIgR3sg"/>
+      </stereotypes>
+      <visibility xmi:id="__xZFFGUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFFWUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFFmUsEe6bAesDIgR3sg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__xZFF2UsEe6bAesDIgR3sg" name="latencyReport">
+      <modelElement href="Latency.uml#_6S8fUGUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orNfoH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orOGsH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orU0YX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_65nBgH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6_SywH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__xZFGWUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFGmUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFG2UsEe6bAesDIgR3sg" name="Description">
+        <modelElement href="Latency.uml#_6ChdsGUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__xZFHGUsEe6bAesDIgR3sg" name="program">
+      <modelElement href="Latency.uml#_6S8fUmUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orOtwH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orOtwX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orVbcH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66M3YH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6_SLsH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__xZFHmUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFH2UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFIGUsEe6bAesDIgR3sg" name="Program">
+        <modelElement href="Latency.uml#_6DaOgGUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__xZFIWUsEe6bAesDIgR3sg" name="workload">
+      <modelElement href="Latency.uml#_6S9GYWUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orPU0H5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orP74H5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orVbcX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66NecH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6_PvcH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__xZFI2UsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFJGUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFJWUsEe6bAesDIgR3sg" name="WorkLoad">
+        <modelElement href="Latency.uml#_6DqGIGUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__xZFJmUsEe6bAesDIgR3sg" name="programTable">
+      <modelElement href="Latency.uml#_6S9GY2UsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orP74X5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orP74n5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orWCgH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66SW8H9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6_OhUH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__xZFKGUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFKWUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFKmUsEe6bAesDIgR3sg" name="ProgramSchedule">
+        <modelElement href="Latency.uml#_6C0_sGUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__xZFK2UsEe6bAesDIgR3sg" name="nodeIndex">
+      <modelElement href="Latency.uml#_6S9GZWUsEe6bAesDIgR3sg"/>
+      <stereotypes xmi:id="_orQi8H5yEe6F645s24XfkQ" name="Generics"/>
+      <stereotypes xmi:id="_orQi8X5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orQi8n5yEe6F645s24XfkQ" name="Generics"/>
+      <stereotypes xmi:id="_orRKAH5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_orWpkH5yEe6F645s24XfkQ" name="Generics"/>
+      <stereotypes xmi:id="_orWpkX5yEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66TlEH9pEe6F645s24XfkQ" name="Generics"/>
+      <stereotypes xmi:id="_66UMIH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_66UzMH9pEe6F645s24XfkQ" name="Generics"/>
+      <stereotypes xmi:id="_66VaQH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_6_LeAH9pEe6F645s24XfkQ" name="Generics"/>
+      <stereotypes xmi:id="_6_MFEH9pEe6F645s24XfkQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="__xZFLmUsEe6bAesDIgR3sg" label="-"/>
+      <cardinality xmi:id="__xZFL2UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <type xmi:id="__xZFMGUsEe6bAesDIgR3sg" name="HashMap">
+        <modelElement href="Latency.uml#_6PKLgGUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_68MbcH9pEe6F645s24XfkQ" name="time">
+      <modelElement href="Latency.uml#_DnxuIHLKEe6Y3e8f6FsdUw"/>
+      <stereotypes xmi:id="_68MbcX9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_DnyVMHLKEe6Y3e8f6FsdUw"/>
+      </stereotypes>
+      <visibility xmi:id="_68Mbcn9pEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_68Mbc39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <type xmi:id="_68MbdH9pEe6F645s24XfkQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_68MbdX9pEe6F645s24XfkQ" name="instance">
+      <modelElement href="Latency.uml#_DnzjUHLKEe6Y3e8f6FsdUw"/>
+      <stereotypes xmi:id="_68Mbdn9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_Dn0KYHLKEe6Y3e8f6FsdUw"/>
+      </stereotypes>
+      <visibility xmi:id="_68Mbd39pEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_68MbeH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <type xmi:id="_68MbeX9pEe6F645s24XfkQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_68NCgH9pEe6F645s24XfkQ" name="numTxRequired">
+      <modelElement href="Latency.uml#_Dn0KYXLKEe6Y3e8f6FsdUw"/>
+      <stereotypes xmi:id="_68NCgX9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_Dn0KYnLKEe6Y3e8f6FsdUw"/>
+      </stereotypes>
+      <visibility xmi:id="_68NCgn9pEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_68NCg39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <type xmi:id="_68NChH9pEe6F645s24XfkQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_68NChX9pEe6F645s24XfkQ" name="numTxProcessed">
+      <modelElement href="Latency.uml#_Dn0xcHLKEe6Y3e8f6FsdUw"/>
+      <stereotypes xmi:id="_68NChn9pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_Dn0xcXLKEe6Y3e8f6FsdUw"/>
+      </stereotypes>
+      <visibility xmi:id="_68NCh39pEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_68NCiH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <type xmi:id="_68NCiX9pEe6F645s24XfkQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_68NCin9pEe6F645s24XfkQ" name="dsl">
+      <modelElement href="Latency.uml#_Dn0xcnLKEe6Y3e8f6FsdUw"/>
+      <stereotypes xmi:id="_68NCi39pEe6F645s24XfkQ" name="LegacyStyledElement">
+        <modelElement href="Latency.uml#_Dn1YgHLKEe6Y3e8f6FsdUw"/>
+      </stereotypes>
+      <visibility xmi:id="_68NCjH9pEe6F645s24XfkQ" label="-"/>
+      <cardinality xmi:id="_68NCjX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <type xmi:id="_68NCjn9pEe6F645s24XfkQ" name="WarpDSL">
+        <modelElement href="Latency.uml#_6DPPYGUsEe6bAesDIgR3sg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__xZFMWUsEe6bAesDIgR3sg" comments="__nWjAH9pEe6F645s24XfkQ" targetConnectionVisual="__nXKEH9pEe6F645s24XfkQ" name="latencyReport">
+      <modelElement href="Latency.uml#_6Csc12UsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="_vCy5YGUvEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xZFMmUsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xZFM2UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__xZFNGUsEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6PxPimUsEe6bAesDIgR3sg"/>
+        <type xmi:id="__xZFNWUsEe6bAesDIgR3sg" name="Description">
+          <modelElement href="Latency.uml#_6ChdsGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__xZFNmUsEe6bAesDIgR3sg" comments="__ncpoH9pEe6F645s24XfkQ" targetConnectionVisual="__nee0H9pEe6F645s24XfkQ" name="numMatchingTx">
+      <modelElement href="Latency.uml#_6CtD4GUsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="_vCy5YWUvEe6bAesDIgR3sg"/>
+      <visibility xmi:id="__xZFN2UsEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="__xZFOGUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__xZFOWUsEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6CtD5WUsEe6bAesDIgR3sg"/>
+        <type xmi:id="__xZFOmUsEe6bAesDIgR3sg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__xZFO2UsEe6bAesDIgR3sg" name="flow">
+        <modelElement href="Latency.uml#_6CtD4WUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__xZFPGUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__xZFPWUsEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__xZFPmUsEe6bAesDIgR3sg" name="src">
+        <modelElement href="Latency.uml#_6CtD4mUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__xZFP2UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__xZFQGUsEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__xZFQWUsEe6bAesDIgR3sg" name="snk">
+        <modelElement href="Latency.uml#_6CtD42UsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__xZFQmUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__xZFQ2UsEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__xZFRGUsEe6bAesDIgR3sg" name="instr">
+        <modelElement href="Latency.uml#_6CtD5GUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__xZFRWUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__xZFRmUsEe6bAesDIgR3sg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__xZFR2UsEe6bAesDIgR3sg" comments="__niJMH9pEe6F645s24XfkQ" targetConnectionVisual="__niJMX9pEe6F645s24XfkQ" name="LatencyAnalysis">
+      <modelElement href="Latency.uml#_6PxPgGUsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="_vCy5YmUvEe6bAesDIgR3sg"/>
+      <keywords xmi:id="__xZFSGUsEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="__xZFSWUsEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="__xZFSmUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__xZFS2UsEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6PxPhGUsEe6bAesDIgR3sg"/>
+        <type xmi:id="__xZFTGUsEe6bAesDIgR3sg" name="LatencyAnalysis">
+          <modelElement href="Latency.uml#_6Csc1mUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__xZFTWUsEe6bAesDIgR3sg" name="warp">
+        <modelElement href="Latency.uml#_6PxPgWUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__xZFTmUsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__xZFT2UsEe6bAesDIgR3sg" name="WarpInterface">
+          <modelElement href="Latency.uml#_6C7taWUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__xZFUGUsEe6bAesDIgR3sg" comments="__nlMgH9pEe6F645s24XfkQ" targetConnectionVisual="__nlzkH9pEe6F645s24XfkQ" name="LatencyAnalysis">
+      <modelElement href="Latency.uml#_6PxPhWUsEe6bAesDIgR3sg"/>
+      <visualProperties xmi:id="_vCzgcGUvEe6bAesDIgR3sg"/>
+      <keywords xmi:id="__xZFUWUsEe6bAesDIgR3sg" keyword="create"/>
+      <visibility xmi:id="__xZFUmUsEe6bAesDIgR3sg" label="~"/>
+      <cardinality xmi:id="__xZFU2UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__xZFVGUsEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_6PxPiWUsEe6bAesDIgR3sg"/>
+        <type xmi:id="__xZFVWUsEe6bAesDIgR3sg" name="LatencyAnalysis">
+          <modelElement href="Latency.uml#_6Csc1mUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__xZFVmUsEe6bAesDIgR3sg" name="program">
+        <modelElement href="Latency.uml#_6PxPhmUsEe6bAesDIgR3sg"/>
+        <cardinality xmi:id="__xZFV2UsEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+        <type xmi:id="__xZFWGUsEe6bAesDIgR3sg" name="Program">
+          <modelElement href="Latency.uml#_6DaOgGUsEe6bAesDIgR3sg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_i60JAGUxEe6bAesDIgR3sg" name="getLatencyTable">
+      <modelElement href="Latency.uml#_i6zh8GUxEe6bAesDIgR3sg"/>
+      <visibility xmi:id="_i60JAWUxEe6bAesDIgR3sg" label="+"/>
+      <cardinality xmi:id="_i60JAmUxEe6bAesDIgR3sg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_i60JA2UxEe6bAesDIgR3sg">
+        <modelElement href="Latency.uml#_i6zh8WUxEe6bAesDIgR3sg"/>
+        <type xmi:id="__hiR0GUxEe6bAesDIgR3sg" name="ProgramSchedule">
+          <modelElement href="Latency.uml#_6C0_sGUsEe6bAesDIgR3sg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_66smoH9pEe6F645s24XfkQ" name="buildLatencyReport">
+      <modelElement href="Latency.uml#_DnmH8HLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_66smoX9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_66smon9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_67QAQX9pEe6F645s24XfkQ" comments="__nqFAH9pEe6F645s24XfkQ" targetConnectionVisual="__nqFAX9pEe6F645s24XfkQ" name="helperBuildLatency">
+      <modelElement href="Latency.uml#_DnrAcHLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_67QAQn9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_67QAQ39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_67QnUH9pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_DnrAcXLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67QnUX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67QnUn9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_67XVAH9pEe6F645s24XfkQ" comments="__ntvYH9pEe6F645s24XfkQ" targetConnectionVisual="__ntvYX9pEe6F645s24XfkQ" name="getSnk">
+      <modelElement href="Latency.uml#_Dns1oHLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_67XVAX9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_67XVAn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_67XVA39pEe6F645s24XfkQ">
+        <modelElement href="Latency.uml#_Dns1onLKEe6Y3e8f6FsdUw"/>
+        <type xmi:id="_67XVBH9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_67XVBX9pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_Dns1oXLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67XVBn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67XVB39pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_67c0kX9pEe6F645s24XfkQ" comments="__nwysH9pEe6F645s24XfkQ" targetConnectionVisual="__nxZwH9pEe6F645s24XfkQ" name="getSrc">
+      <modelElement href="Latency.uml#_Dns1o3LKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_67c0kn9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_67c0k39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_67c0lH9pEe6F645s24XfkQ">
+        <modelElement href="Latency.uml#_DntcsHLKEe6Y3e8f6FsdUw"/>
+        <type xmi:id="_67c0lX9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_67c0ln9pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_Dns1pHLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67c0l39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67c0mH9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_67i7MX9pEe6F645s24XfkQ" comments="__n1EIH9pEe6F645s24XfkQ" targetConnectionVisual="__n1EIX9pEe6F645s24XfkQ" name="getNumTxRequired">
+      <modelElement href="Latency.uml#_DntcsXLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_67i7Mn9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_67i7M39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_67i7NH9pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_DntcsnLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67i7NX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67i7Nn9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_67qP8X9pEe6F645s24XfkQ" comments="__n7x0H9pEe6F645s24XfkQ" targetConnectionVisual="__n8_8H9pEe6F645s24XfkQ" name="calculateReleaseTime">
+      <modelElement href="Latency.uml#_DnuDwHLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_67qP8n9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_67qP839pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_67qP9H9pEe6F645s24XfkQ" name="src">
+        <modelElement href="Latency.uml#_DnuDwXLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67qP9X9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67qP9n9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_67qP939pEe6F645s24XfkQ" name="snk">
+        <modelElement href="Latency.uml#_DnuDwnLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67qP-H9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67qP-X9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_67qP-n9pEe6F645s24XfkQ" name="srcIndex">
+        <modelElement href="Latency.uml#_DnuDw3LKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67qP-39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67qP_H9pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_67qP_X9pEe6F645s24XfkQ" name="snkIndex">
+        <modelElement href="Latency.uml#_DnuDxHLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67qP_n9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67qP_39pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_67qQAH9pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_DnuDxXLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67qQAX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67qQAn9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_670oAH9pEe6F645s24XfkQ" comments="__oOFsH9pEe6F645s24XfkQ" targetConnectionVisual="__oOswH9pEe6F645s24XfkQ" name="calculateNumTxProcessed">
+      <modelElement href="Latency.uml#_Dnuq0HLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_670oAX9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_670oAn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_670oA39pEe6F645s24XfkQ" name="srcIndex">
+        <modelElement href="Latency.uml#_Dnuq0XLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oBH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oBX9pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oBn9pEe6F645s24XfkQ" name="snkIndex">
+        <modelElement href="Latency.uml#_Dnuq0nLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oB39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oCH9pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oCX9pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_Dnuq03LKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oCn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oC39pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oDH9pEe6F645s24XfkQ" name="src">
+        <modelElement href="Latency.uml#_Dnuq1HLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oDX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oDn9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oD39pEe6F645s24XfkQ" name="snk">
+        <modelElement href="Latency.uml#_Dnuq1XLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oEH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oEX9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oEn9pEe6F645s24XfkQ" name="deadline">
+        <modelElement href="Latency.uml#_Dnuq1nLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oE39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oFH9pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oFX9pEe6F645s24XfkQ" name="releaseTime">
+        <modelElement href="Latency.uml#_Dnuq13LKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oFn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oF39pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_670oGH9pEe6F645s24XfkQ" name="nextReleaseTime">
+        <modelElement href="Latency.uml#_Dnuq2HLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_670oGX9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_670oGn9pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_67_AEH9pEe6F645s24XfkQ" comments="__oWBgH9pEe6F645s24XfkQ" targetConnectionVisual="__oWokH9pEe6F645s24XfkQ" name="constructLatencyMessage">
+      <modelElement href="Latency.uml#_DnvR4HLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_67_AEX9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_67_AEn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_67_AE39pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_DnvR4XLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67_AFH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67_AFX9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_67_AFn9pEe6F645s24XfkQ" name="deadline">
+        <modelElement href="Latency.uml#_DnvR4nLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67_AF39pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67_AGH9pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_67_AGX9pEe6F645s24XfkQ" name="latency">
+        <modelElement href="Latency.uml#_DnvR43LKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_67_AGn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_67_AG39pEe6F645s24XfkQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_68IxEH9pEe6F645s24XfkQ" comments="__oYdwH9pEe6F645s24XfkQ" targetConnectionVisual="__oYdwX9pEe6F645s24XfkQ" name="recordLatencyMessage">
+      <modelElement href="Latency.uml#_DnvR5HLKEe6Y3e8f6FsdUw"/>
+      <visibility xmi:id="_68IxEX9pEe6F645s24XfkQ" label="+"/>
+      <cardinality xmi:id="_68IxEn9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_68IxE39pEe6F645s24XfkQ" name="flowName">
+        <modelElement href="Latency.uml#_DnvR5XLKEe6Y3e8f6FsdUw"/>
+        <cardinality xmi:id="_68IxFH9pEe6F645s24XfkQ" label="1" max="1" min="1"/>
+        <type xmi:id="_68IxFX9pEe6F645s24XfkQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_orDuoH5yEe6F645s24XfkQ" sourceConnectionVisual="_orDuoX5yEe6F645s24XfkQ" text="@author sgoddard&#xD;&#xA;@author Frank Forliano (for java doc comments)&#xD;&#xA;@author srgoddard (for java doc comments)&#xD;&#xA; *">
+    <modelElement href="Latency.uml#_6T0CAGUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_orEVsn5yEe6F645s24XfkQ" sourceConnectionVisual="_orEVs35yEe6F645s24XfkQ" text="&#xD;&#xA;  * @return workLoad">
+    <modelElement href="Latency.uml#_6T0CAWUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_orFj0H5yEe6F645s24XfkQ" sourceConnectionVisual="_orFj0X5yEe6F645s24XfkQ" text="Returns the program schedule of the flows.&#xD;&#xA;   * @return scheduleBuilt">
+    <modelElement href="Latency.uml#_6T0CAmUsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_orGK4H5yEe6F645s24XfkQ" sourceConnectionVisual="_orGK4X5yEe6F645s24XfkQ" text="Maps the names of the nodes to the respective indicies.&#xD;&#xA;   * @return A HashMap -> Keys = NODE NAMES // Values = Indicies in Schedule Table">
+    <modelElement href="Latency.uml#_6T0CA2UsEe6bAesDIgR3sg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__nDBAH9pEe6F645s24XfkQ" sourceConnectionVisual="__nDoEH9pEe6F645s24XfkQ" text="@author sgoddard&#xD;&#xA;@author srgoddard (for java doc comments/refactor buildLatencyReport())&#xD;&#xA;@version 1.6" item="__xZFCWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#__moKQH9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__nWjAH9pEe6F645s24XfkQ" sourceConnectionVisual="__nXKEH9pEe6F645s24XfkQ" text="latencyReport() now returns latencyReport instead of building the report&#xD;&#xA;   * @return latencyReport" item="__xZFMWUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#__moKQ39pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__ncpoH9pEe6F645s24XfkQ" sourceConnectionVisual="__nee0H9pEe6F645s24XfkQ" text="@return numTX counts the numbers of Tx attempts made successfully&#xD;&#xA; &#x9;* @param dsl is used as a mediator to establish new WarpDSL()&#xD;&#xA; &#x9;* @param instructionParametersArray is used to obtain instruction parameters from the dsl.getInstructionParameters(instr)&#xD;&#xA; &#x9;* This method is used to obtain the number of successful Tx attempts if flowName equals flow" item="__xZFNmUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#__moxV39pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__niJMH9pEe6F645s24XfkQ" sourceConnectionVisual="__niJMX9pEe6F645s24XfkQ" text="This object holds the toWorkload()/getSchedule()/NodeMapIndex()/and toProgram()&#xD;&#xA;   * Has since been refactored with the LatencyAnalysis(Program program) constructor." item="__xZFR2UsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#__moKQX9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__nlMgH9pEe6F645s24XfkQ" sourceConnectionVisual="__nlzkH9pEe6F645s24XfkQ" text="This contains the program side of the nodes. Including toWorkload()/getSchedule()/getNodeMapIndex()&#xD;&#xA;   * We refactored the latencyAnalysis(WarpInterface Warp) with LatencyAnalysis(Program program). This&#xD;&#xA;   * removes code duplication making it easier to follow." item="__xZFUGUsEe6bAesDIgR3sg">
+    <modelElement href="Latency.uml#__moKQn9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__nqFAH9pEe6F645s24XfkQ" sourceConnectionVisual="__nqFAX9pEe6F645s24XfkQ" text="Helps build latency report by dividing up the loops&#xD;&#xA;   * @param flowName" item="_67QAQX9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moKRH9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__ntvYH9pEe6F645s24XfkQ" sourceConnectionVisual="__ntvYX9pEe6F645s24XfkQ" text="Gets snk of last link in the flow, which is also the Flow snk node &#xD;&#xA;   * @param flowName&#xD;&#xA;   * @return nodes[flowSnkIndex]" item="_67XVAH9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxUH9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__nwysH9pEe6F645s24XfkQ" sourceConnectionVisual="__nxZwH9pEe6F645s24XfkQ" text="Gets the src of last link in the flow &#xD;&#xA;   * @param flowName&#xD;&#xA;   * @return nodes[flowSnkIndex - 1]" item="_67c0kX9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxUX9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__n1EIH9pEe6F645s24XfkQ" sourceConnectionVisual="__n1EIX9pEe6F645s24XfkQ" text="&#xD;&#xA;   * @param flowName&#xD;&#xA;   * @return Integer from array #of Tx Attempts Per Link" item="_67i7MX9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxUn9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__n7x0H9pEe6F645s24XfkQ" sourceConnectionVisual="__n8_8H9pEe6F645s24XfkQ" text="get next release time and absolute deadline of the flow&#xD;&#xA;   * @param numTxRequired&#xD;&#xA;   * @param src&#xD;&#xA;   * @param snk&#xD;&#xA;   * @param srcIndex&#xD;&#xA;   * @param snkIndex&#xD;&#xA;   * @param numTxProcessed&#xD;&#xA;   * @param flowName" item="_67qP8X9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxU39pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__oOFsH9pEe6F645s24XfkQ" sourceConnectionVisual="__oOswH9pEe6F645s24XfkQ" text="Calculates numTxProcessed&#xD;&#xA;   * @param srcIndex&#xD;&#xA;   * @param snkIndex&#xD;&#xA;   * @param flowName&#xD;&#xA;   * @param src&#xD;&#xA;   * @param snk&#xD;&#xA;   * @param deadline&#xD;&#xA;   * @param releaseTime&#xD;&#xA;   * @param nextReleaseTime" item="_670oAH9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxVH9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__oWBgH9pEe6F645s24XfkQ" sourceConnectionVisual="__oWokH9pEe6F645s24XfkQ" text="This method is to combine flowName, instance, and latency in a message.&#xD;&#xA;   * As well as include a message if a deadline is missed.&#xD;&#xA;   * @param flowName&#xD;&#xA;   * @param instance&#xD;&#xA;   * @param deadline&#xD;&#xA;   * @param latency&#xD;&#xA;   * @return latencyMsg" item="_67_AEH9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxVX9pEe6F645s24XfkQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="__oYdwH9pEe6F645s24XfkQ" sourceConnectionVisual="__oYdwX9pEe6F645s24XfkQ" text="Records unknown latency message for latency Report&#xD;&#xA;   * @param flowName&#xD;&#xA;   * @param instance" item="_68IxEH9pEe6F645s24XfkQ">
+    <modelElement href="Latency.uml#__moxVn9pEe6F645s24XfkQ"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
